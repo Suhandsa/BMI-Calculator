@@ -1,0 +1,63 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+h1{
+    color: white;
+}
+body{
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    min-height: 100vh;
+    text-align: center;
+    /* background-color: antiquewhite; */
+    background-image: url("workout3.jpg");
+    background-size: cover;
+    background-position: center;
+    object-fit:contain;
+    flex-direction: column;
+}
+form{
+    /* background-color: rgb(197, 197, 59); */
+    backdrop-filter: blur(10px);
+   
+    border-radius: 2rem;
+}
+.inputs{
+    display: flex;
+    /* justify-content: center;  */
+    /* align-items: center; */
+    min-height: 50vh;
+    flex-direction: column;
+    padding: 2rem;
+    outline: none;
+    
+}
+.weight{
+    display: flex;
+    padding: 2rem;
+}
+.hight{
+    display: flex;
+    padding: 1rem 2rem  1rem 2rem ;
+}
+p{
+    font-size: 1.5rem;
+    margin-right: 2px;
+    color: white;
+}
+input{
+    border: none;
+    border-radius: 5px;
+}
+button{
+    display: flex;
+    justify-content: center;
+    margin: 2rem;
+    padding: 1rem;
+    border-radius: 10px;
+    background-color:grey;
+    color: white;
+    font-size: 1.2rem;
+}
